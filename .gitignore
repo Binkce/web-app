@@ -1,0 +1,18 @@
+# Root .gitignore (this file is versioned)
+
+# IDE configs
+.idea/
+.vscode/
+*.swp
+
+# macOS system files
+*.DS_Store
+
+# Node.js environment
+node_modules/
+.env
+package-lock.json
+
+# Ignore logs and temp files
+*.log
+*.tmp
