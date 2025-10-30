@@ -1,0 +1,70 @@
+/* Copyright 2025 Binkce. All rights reserved. */
+
+@font-face {
+    font-family: "nexatext-trial-regular";
+    src: url("/fonts/nexatext-trial-regular.otf")
+}
+
+/* Defines the general font styles used in the navigation elements. */
+.nav-font li a {
+    text-decoration: none;
+    font-family: nexatext-trial-regular;
+    font-size: 15px;
+    color: #023649;
+}
+
+/* Changes the link color when hovered. */
+.nav-font li a:hover {
+    color: #10b9f9;
+}
+
+/* Defines the background style for the navigation bar. */
+.nav-header {
+    position: sticky;
+    z-index: 1000;
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid #e8ebf0;
+    background: #fff;
+}
+
+/* Defines the inner header container to align its elements properly. */
+.nav-header-inner {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    margin: 0px 50px 0px 75px;
+}
+
+/* Defines items styles of the navigation bar. */
+.nav-menu {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-icon-chevron  {
+    margin: 0px 0px -3px 5px
+}
+
+/* Defines the background style of the dropdown menu. */
+.nav-dropdown-menu {
+    position: absolute;
+    z-index: 999;
+    top: 85px;
+    left: 0;
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+    list-style: none;
+    background: #fff;
+    border-bottom: 1px solid #e8ebf0;
+}
+
+/* Defines the items styles within the dropdown menu. */
+.nav-dropdown-menu li {
+    padding: 5px 75px;
+}
